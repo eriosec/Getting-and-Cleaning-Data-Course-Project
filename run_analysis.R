@@ -48,8 +48,32 @@ ordFullSet<-fullSet[order(fullSet$subject),]
 ##The mean is then calculated for each of the measurements (features) of the ordered merged data set
 mergedMeans<-apply(ordFullSet,2,mean)
 
+##The names of the columns is extracted to reflect the appropriate calculated measurements
+mergedMeansColNames<-names(mergedMeans)
+
+##The names are modified to reflect an accurate descritption of the calculated extracted data (the means for all columns)
+featurevecmeans<-vector()
+for (i in 1:length(mergedMeansColNames))
+    featurevecmeans[i]<-paste(mergedMeansColNames[i],"-Mean",sep="")
+
+mergedMeansTable<-as.table(t(mergedMeans))
+
+colnames(mergedMeansTable)<-featurevecmeans
+
 ##The standard deviation is then calculated for each of the measurements (features) of the ordered merged data set
 mergedSDS<-apply(ordFullSet,2,sd)
+
+##The names of the columns is extracted to reflect the appropriate calculated measurements
+mergedSDSColNames<-names(mergedSDS)
+
+##The names are modified to reflect an accurate descritption of the calculated extracted data (the standard deviations for all columns)
+featurevecsds<-vector()
+for (i in 1:length(mergedSDS))
+    featurevecsds[i]<-paste(mergedSDSColNames[i],"-Mean",sep="")
+
+mergedSDSTable<-as.table(t(mergedSDS))
+
+colnames(mergedSDSTable)<-featurevecsds
 
 ####################################################
 ##*************************THIS ENSURES THE USE OF DESCRIPTIVE ACTIVITY NAMES****************************
@@ -155,6 +179,24 @@ for (i in 1:length(measurementMeans)){
 ##The activity labels are then column bound to the tidy data set and labeled appropriately
 tidymeans<-cbind(activitycol,tidymeanstemp)
 names(tidymeans)[1]<-c("activity")
+
+
+##*******************************************
+##The names of the columns is extracted to reflect the appropriate calculated measurements
+tidymeansColNames<-names(tidymeans[3:length(tidymeans)])
+
+##The names are modified to reflect an accurate descritption of the calculated extracted data (the average for all measurements)
+featurevectidymeans<-vector()
+for (i in 1:length(tidymeansColNames))
+    featurevectidymeans[i]<-paste(tidymeansColNames[i],"-Average",sep="")
+
+tidyactsubj<-tidymeans[1:2]
+tidyaverages<-tidymeans[3:ncol(tidymeans)]
+colnames(tidyaverages)<-featurevectidymeans
+tidymeans<-cbind(tidyactsubj,tidyaverages)
+
+##*********************************************
+
 
 ##The tidymeans data table is written to a text file called "tidymeans.txt" 
 
