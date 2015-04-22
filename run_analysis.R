@@ -156,6 +156,6 @@ for (i in 1:length(measurementMeans)){
 tidymeans<-cbind(activitycol,tidymeanstemp)
 names(tidymeans)[1]<-c("activity")
 
-##The tidymeans data table is printed out
+##The tidymeans data table is written to a text file called "tidymeans.txt" 
 
 write.table(tidymeans, file="tidymeans.txt", row.name=FALSE)
