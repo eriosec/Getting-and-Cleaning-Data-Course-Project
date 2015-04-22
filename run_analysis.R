@@ -11,7 +11,7 @@ activities<-read.table("activity_labels.txt",col.names=c("activitycode","activit
 #and the columns are named appropriately
 features<-read.table("features.txt",col.names=c("featcode","feature"))
 
-#The vector that only contains the names of the features is then extracted onto a vector
+#The column that only contains the names of the features is then extracted onto a vector
 #named "featurevec" and will later be used to name the columns of the Test and Train data sets
 featurevec<-as.vector(features$feature)
 
@@ -38,8 +38,8 @@ colnames(XTrain)<-featurevec
 #measured train data
 XTrainnamed<-cbind(subjectTrain,XTrain) ## TRAINED DATA WITH SUBJECT COLUMN AND ALL MEASURED FEATURES COLUMNS
 
-##***************THIS IS THE MERGED SET OF TRAINING AND TEST DATA SETS*******************************
-fullSet<-rbind(XTrainnamed,XTestnamed)
+##XTrained and xTestnamed are row bound to create a tabled called "fullSet"********************************
+fullSet<-rbind(XTrainnamed,XTestnamed)#THIS IS THE MERGED SET OF TRAINING AND TEST DATA SETS
 
 ##THE merged set is then ordered by subject
 ordFullSet<-fullSet[order(fullSet$subject),]
