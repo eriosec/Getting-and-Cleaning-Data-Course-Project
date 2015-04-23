@@ -1,5 +1,5 @@
 ---
-title: "Codebook for Getting and Cleaning Data Project"
+<h1>title: "Codebook for Getting and Cleaning Data Project"</h1>
 author: "Eric Osorio"
 date: "4/26/15"
 output: average of all the measured features for a merged set of training and test data in a tidy data set format
@@ -9,8 +9,8 @@ output: average of all the measured features for a merged set of training and te
 ## Project Description
 This project manipulates a number of raw data files to create a scriipt that accomplishes these 5 things:
 1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3. Uses descriptive activity names to name the activities in the data set
+2. Extracts only the measurements on the mean and standard deviation for each measurement.  For this step, only the subject and measurements are used to calculate the means and standard deviation of all the variables. The "Activity" variable is added later.
+3. Uses descriptive activity names to name the activities in the data set 
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
@@ -220,7 +220,7 @@ General description of the file including:
 	Class=numeric
 	Unique values= 1 through 30 
 	Units=no units
-For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given.
+For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given. The features_info.txt file gives the details of the different variables calculated from the raw data from the Accelerometer and Gyro plus the rest of the calculations derived from the raw data that can be found in the "Inertial Signals" directories
 "3" "tBodyAcc-mean()-X-Average"
 "4" "tBodyAcc-mean()-Y-Average"
 "5" "tBodyAcc-mean()-Z-Average"
