@@ -101,8 +101,8 @@ Once it is downloaded and unzipped, read the README.txt file and open up the fol
 	features.txt
 Load them into R tables and look at the dimensions of each to make sure that you understand how the different files are related to each other. You should find that the subject_test.txt, X_test.txt  and the y_test.txt files have the same number of rows(2947). Similarly, the X_train.txt, y_train.txt and subject_train.txt files have the same number of rows (7352). The features.txt file has 561 rows which is the same number of columns as in the X_test.txt and the X_train.txt files. From this we can conclude that the feature.txt file holds the names for each of the columns in the X_train.txt and the X_test.txt files; the subject_train.txt holds each of subjects for the observations in the X_train.txt file; and the subject_test.txt holds each of the subjects for the observations in the X_test.txt file. Furthermore, looking at the contents of y_test.txt and y_train.txt we notice that the values are between 1 and 6 which correspond to the activities specified in the activity_labels.txt and so we see that the activities in y_test.txt has a one-to-one correspondance to the observations in the X_test .txt file and similarly, the activities in y_train.txt has a one-to-one correspondance to the observations in the X_train.txt file. Thus, from all these files a Test Set table with dimensions of 2947 by 563 can be created which will have all the observations of the test set and all the measured features(561) plus a column for the subjects and a column for the activity. Similarly, a Train Set table with dimensions of 7352 by 563 can be created which will have all the observations of the train set and all the measured features(561) plus a column for the subjects and a column for the activity. The full set of merged data with all features and columns for Activity and Subject should have a dimension of 10299 by 563.
  
-Notes on the original (raw) data:
-=========================================
+ 
+##Creating the tidy datafile
 
 The information in this section came from the original README.txt file we were provided these notes on the raw data:
 
