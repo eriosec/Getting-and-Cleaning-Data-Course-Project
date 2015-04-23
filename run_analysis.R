@@ -60,6 +60,8 @@ mergedMeansTable<-as.table(t(mergedMeans))
 
 colnames(mergedMeansTable)<-featurevecmeans
 
+mergedMeansTable
+
 ##The standard deviation is then calculated for each of the measurements (features) of the ordered merged data set
 mergedSDS<-apply(ordFullSet,2,sd)
 
@@ -69,11 +71,13 @@ mergedSDSColNames<-names(mergedSDS)
 ##The names are modified to reflect an accurate descritption of the calculated extracted data (the standard deviations for all columns)
 featurevecsds<-vector()
 for (i in 1:length(mergedSDS))
-    featurevecsds[i]<-paste(mergedSDSColNames[i],"-Mean",sep="")
+    featurevecsds[i]<-paste(mergedSDSColNames[i],"-StdDev",sep="")
 
 mergedSDSTable<-as.table(t(mergedSDS))
 
 colnames(mergedSDSTable)<-featurevecsds
+
+mergedSDSTable
 
 ####################################################
 ##*************************THIS ENSURES THE USE OF DESCRIPTIVE ACTIVITY NAMES****************************
@@ -94,18 +98,18 @@ activityLabels<-read.table("activity_labels.txt")
 ##"applyLabels" and wich will be used to create a data frame named "dftrain" which will hold 
 ##the character names of all the activities so that later they can be column bound with the
 ##"XTrainNamed" table
-index<-0 ##The index is to double check the number of rows 
+
 dftrain<-data.frame()
 applyLabels<-function(yTrainActivities,activityLabels){
     for (i in 1:nrow(yTrainActivities)){
         for(j in 1:nrow(activityLabels)){
             if(yTrainActivities[i,1]==activityLabels[j,1]){
                 dftrain[i,1]<<-activityLabels[j,2]
-                index<<-index+1
+
             }
         }
     }
-    index
+  
 }
 ##The funciton is then run and the column for the data frame "dftrain" is labeled appropriately
 applyLabels(yTrainActivities,activityLabels)
@@ -126,11 +130,11 @@ applyLabels<-function(yTestActivities,activityLabels){
         for(j in 1:nrow(activityLabels)){
             if(yTestActivities[i,1]==activityLabels[j,1]){
                 dftest[i,1]<<-activityLabels[j,2]
-                index<<-index+1
+
             }
         }
     }
-    index
+
 }
 
 ##The function is then run and the column for the data frame "dftest" is labeled appropriately
@@ -168,7 +172,7 @@ measurementMeans<-lapply(subjbyact,
 ##There is only one table for this "kind" of measurements
 
 tidymeanstemp<-data.frame()
-activitycol<-data.frame() ##TThis data frame is used to keep track of the activity labels
+activitycol<-data.frame() ##This data frame is used to keep track of the activity labels
 for (i in 1:length(measurementMeans)){
     for (j in 1: nrow(activities)){
         tidymeanstemp<-rbind(tidymeanstemp,t(as.data.frame(measurementMeans[[i]][[j]])))
