@@ -286,7 +286,10 @@ General description of the file including:
 	Unique values= 1 through 30 
 	Units=no units
 
-For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given. The features_info.txt file gives the details of the different variables calculated from the raw data from the Accelerometer and Gyro plus the rest of the calculations derived from the raw data that can be found in the "Inertial Signals" directories
+For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given. The features_info.txt file gives the details of the different variables calculated from the raw data from the Accelerometer and Gyro plus the rest of the calculations derived from the raw data that can be found in the "Inertial Signals" directories. 
+
+The tidy data contains as stated in the project requirements, requirement #5, "the average of each variable for each activity and each subject", thus each value represents the average value for each original variable for each subject and activity. Each column has thus been renamed with the suffix of "-Average"
+
 
 "3" "tBodyAcc-mean()-X-Average"
 "4" "tBodyAcc-mean()-Y-Average"
