@@ -280,12 +280,14 @@ General description of the file including:
 	Class=character
 	Unique values= 										"LAYING","SITTING","STANDING","WALKING",WALKING_DOWNSTAIRS	","WALKING_UPSTAIRS" 
 	Units=no units
+
 "2" "subject"
 	Class=numeric
 	Unique values= 1 through 30 
 	Units=no units
 
 For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given. The features_info.txt file gives the details of the different variables calculated from the raw data from the Accelerometer and Gyro plus the rest of the calculations derived from the raw data that can be found in the "Inertial Signals" directories
+
 "3" "tBodyAcc-mean()-X-Average"
 "4" "tBodyAcc-mean()-Y-Average"
 "5" "tBodyAcc-mean()-Z-Average"
