@@ -1,5 +1,5 @@
 ---
-<h1>title: "Codebook for Getting and Cleaning Data Project"</h1>
+title: "Codebook for Getting and Cleaning Data Project"
 author: "Eric Osorio"
 date: "4/26/15"
 output: average of all the measured features for a merged set of training and test data in a tidy data set format
