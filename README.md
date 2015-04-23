@@ -273,7 +273,9 @@ Description on how to create the tidy data file:
 General description of the file including:
  - Dimensions of the dataset: 180 by 563 
  - Summary of the data: The data represents the average value for each of the measurment features collected trhoughout each activity performed by each user. Since there there are 30 users and each user performed 6 activities, there are 180 observations or 180 rows. For each observation 561 measurements were taken and the average for each measurement per subject per activity was calculated and those measurement columns appended with the suffix "-Average". The first two columns are for the "acivity" and the "subject" thus giving us 563 columns in total
+
  - Variables present in the dataset:
+
 "1" "activity": 
 	Class=character
 	Unique values= 										"LAYING","SITTING","STANDING","WALKING",WALKING_DOWNSTAIRS	","WALKING_UPSTAIRS" 
@@ -282,6 +284,7 @@ General description of the file including:
 	Class=numeric
 	Unique values= 1 through 30 
 	Units=no units
+
 For the rest of the variables, all values are numeric and unique to that variable and units can be inferred from the original README.txt and fatures_info.txt files although they were not specifically given. The features_info.txt file gives the details of the different variables calculated from the raw data from the Accelerometer and Gyro plus the rest of the calculations derived from the raw data that can be found in the "Inertial Signals" directories
 "3" "tBodyAcc-mean()-X-Average"
 "4" "tBodyAcc-mean()-Y-Average"
