@@ -147,6 +147,7 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
  The tidy data file is created by running the run_analysis.R script 
 ###Guide to create the tidy data file
 Description on how to create the tidy data file:
+
 1. Download all the files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 2. Unzip the files and place all of them in a folder called "data"
