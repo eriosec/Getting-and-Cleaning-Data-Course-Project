@@ -148,8 +148,11 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 ###Guide to create the tidy data file
 Description on how to create the tidy data file:
 1. Download all the files from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 2. Unzip the files and place all of them in a folder called "data"
+
 3. Make the "data" folder the working directoty
+
 4. Go into the test and train directories that were created during the unzip process and copy these files directly into the "data" folder:
 	subject_test.txt
 	X_test.txt
@@ -157,58 +160,107 @@ Description on how to create the tidy data file:
 	subject_train.txt
 	X_train.txt
 	y_train.txt
+
 5. After step 4. in addition to those files, you'll also have the following files directly in the "data" folder:
 	activity_labels.txt
 	features.txt
 	features.info.txt
 	README.txt
+
 6.  Open R Studio and make the "data" directory your working directory
+
 7. Create new R Script file saving it with the name run_analysis.R
+
 8. Install and load the data.table package
+
 9. Read the activity_labels.txt file into a table called "activities" and name the columns as "activitycode" and "activity"
+
 10. Read the features.txt file into another table called "features" and name the columns as "featcode" and "feature"
+
 11. Extract the "feature" column from the features table and store it into a vector called "featurevec"
+
 12. Read the "subject_test.txt" file into a table called "subjectTest" and name the column "subject"
+
 13.Read the "subject_train.txt" file into a table called  "subjectTrain" and name the column "subject"
+
 14. Read the file "X_test.txt" into a table called "XTest"
+
 15 Use the "featurevec" vector created in step 11 to assign the column names to "XTest"
+
 16.  Column bind the "subjectTest" table with the "XTest" table and name it "XTestnamed" which will in essence give you a table with all the subjects that were used in the test set and all the measurements taken for those subjects with all the columns labeled
+
 17. Read the file "X_train.txt" into a table called "XTrain"
+
 18 Use the "featurevec" vector created in step 11 to assign the column names to "XTrain"
+
 19.  Column bind the "subjectTrain" table with the "XTrain" table and name it "XTrainnamed" which will in essence give you a table with all the subjects that were used in the train set and all the measurements taken for those subjects with all the columns labeled
+
 20. Row bind "XTrainednamed" with "XTestnamed" into a new table called "fullSet", this will create the merged set that will have all of the subjects in the study, those assigned to the test set and those assigned to the train set,  with all of the labeled measurements that were taken for each of these subjects
+
 21. Sort the "fullSet" table by subject. Since there were 30 subjects in the study,  the subjects will go from subject number 1 to subject number 30
+
 22.Calculate and extract the mean for all the columns in "fullSet" assigning them to "mergedMeans"
+
 23. Extract the column names from mergedMeans and assign them to "mergedMeansColNames"
+
 24. Create an empty vector called "featurevecmeans"
+
 25.Paste the "-Mean" suffix to each of the values in "mergedMeansColNames" with no separation between the original column name and the suffix and assign them into the "featurevecmeans" vector
+
 26. Create "mergedMeansTable" as a table of the transposed "mergedMeans" numeric vector
+
 27. Rename the column names of "mergedMeansTable" by assigning them the values in the "featuresvecmeans" vector
+
 28. Print out the "mergedMeanstable" which shows us the mean of all the measurements in the merged set
+
 29.Calculate and extract the standard deviation for all the columns in "fullSet" assigning them to "mergedSDS"
+
 30. Extract the column names from mergedSDS and assign them to "mergedSDSColNames"
+
 31. Create an empty vector called "featurevecsds"
+
 32.Paste the "-StdDev" suffix to each of the values in "mergedSDSColNames" with no separation between the original column name and the suffix and assign them into the "featurevecsds" vector
+
 33. Create "mergedSDSTable" as a table of the transposed "mergedSDS" numeric vector
+
 34. Rename the column names of "mergedSDSTable" by assigning them the values in the "featuresvecsds" vector
+
 35. Print out the "mergedSDSstable" which shows us the standard deviation of all the measurements in the merged set
+
 36. Read the "y_test.txt" file into a table called "yTestActivites"
+
 37. Read the "y_train.txt" file into a table called "yTrainActivites"
+
 38. Read the "activity_labels.txt" file into a table called "activityLabels"
+
 39. Create a function called "applyLabels" that will take as arguments "yTrainActivities" and "activityLabels" and assign the correct name to the activity codes in the yTrainActivities" table, storing them into a data frame named "dftrain"
+
 40. Name the column of the "dftrain" data frame "Activity"
+
 41. Column bind "dfTrain" and "XTrainednamed" into a table called "XTrainedfull" this essentially gives you the full set of train data with a column for activities appropriately named, subjects and all measurements taken for the training set.
+
 42. ReCreate the function called "applyLabels" that will take as arguments "yTestActivities" and "activityLabels" and assign the correct name to the activity codes in the yTestActivities" table, storing them into a data frame named "dftest"
+
 43. Name the column of the "dftest" data frame "Activity"
+
 44. Column bind "dftest" and "XTestdnamed" into a table called "XTestfull" this essentially gives you the full set of test data with a column for activities appropriately named, subjects and all measurements taken for the training set.
+
 45. Row bind "XTrainedfull" and "XTestfull" which will essentially give you the merged data set for both test and training data with columns for all activities properly named, subjects and measurements taken
+
 46. Sort the "fullSet" data frame by subject and activity and store it in a new data frame called "sortedfullSet"
+
 47. Split "sortedfullSet" by subject and store it in a list named "bysubjorderedfull". This will create a list of 30 data frames where each data frame will hold the data for a specific subject
+
 48. Split each data frame of the "sortedfullSet" by activity and store in "subjbyact" which will essentially hold a list for each subject which will in turn hold a list for each of the activities performed by that subject and within that list, the data frame of the data pertaining to that subject and that activity
+
 49. Calculate and extract the means for each of the measurment columns in the data frames within the lists found in "subjbyact" and store in a new list called "measurementMeans"
+
 50. Unlist the "measurementMeans" list to create a tidy data set where A) each variable measurment will be in one column, B) each different observation of that variable (mean for different activity of a user is in a different row , C) there is only one table for this kind of measurments, D) all the columns reflect the name of the appropriate measurement in the data frame.
+
 51. Rename the measurment columns to reflect that they now hold averages for activity performed per subject
+
 52. use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
+
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
  - Dimensions of the dataset: 180 by 563 
