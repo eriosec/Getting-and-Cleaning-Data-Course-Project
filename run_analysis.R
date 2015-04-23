@@ -1,4 +1,4 @@
-#Copy all files into a folder called data and make it the working directory
+#Copy all files into a folder called data and make it the working directory.
 
 #This script uses the basic R packages plus the data.table package
 library("data.table", lib.loc="C:/Program Files/R/R-3.1.2/library")
