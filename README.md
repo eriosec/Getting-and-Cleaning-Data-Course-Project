@@ -8,11 +8,17 @@ output: average of all the measured features for a merged set of training and te
  
 ## Project Description
 This project manipulates a number of raw data files to create a scriipt that accomplishes these 5 things:
+
 1. Merges the training and the test sets to create one data set.
+
 2. Extracts only the measurements on the mean and standard deviation for each measurement.  For this step, only the subject and measurements are used to calculate the means and standard deviation of all the variables. The "Activity" variable is added later.
+
 3. Uses descriptive activity names to name the activities in the data set 
+
 4. Appropriately labels the data set with descriptive variable names. 
+
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
  
 ## Study Design and Data Processing
