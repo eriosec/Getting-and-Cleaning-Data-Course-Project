@@ -182,17 +182,17 @@ Description on how to create the tidy data file:
 
 12. Read the "subject_test.txt" file into a table called "subjectTest" and name the column "subject"
 
-13.Read the "subject_train.txt" file into a table called  "subjectTrain" and name the column "subject"
+13. Read the "subject_train.txt" file into a table called  "subjectTrain" and name the column "subject"
 
 14. Read the file "X_test.txt" into a table called "XTest"
 
-15 Use the "featurevec" vector created in step 11 to assign the column names to "XTest"
+15. Use the "featurevec" vector created in step 11 to assign the column names to "XTest"
 
 16.  Column bind the "subjectTest" table with the "XTest" table and name it "XTestnamed" which will in essence give you a table with all the subjects that were used in the test set and all the measurements taken for those subjects with all the columns labeled
 
 17. Read the file "X_train.txt" into a table called "XTrain"
 
-18 Use the "featurevec" vector created in step 11 to assign the column names to "XTrain"
+18. Use the "featurevec" vector created in step 11 to assign the column names to "XTrain"
 
 19.  Column bind the "subjectTrain" table with the "XTrain" table and name it "XTrainnamed" which will in essence give you a table with all the subjects that were used in the train set and all the measurements taken for those subjects with all the columns labeled
 
@@ -200,13 +200,13 @@ Description on how to create the tidy data file:
 
 21. Sort the "fullSet" table by subject. Since there were 30 subjects in the study,  the subjects will go from subject number 1 to subject number 30
 
-22.Calculate and extract the mean for all the columns in "fullSet" assigning them to "mergedMeans"
+22. Calculate and extract the mean for all the columns in "fullSet" assigning them to "mergedMeans"
 
 23. Extract the column names from mergedMeans and assign them to "mergedMeansColNames"
 
 24. Create an empty vector called "featurevecmeans"
 
-25.Paste the "-Mean" suffix to each of the values in "mergedMeansColNames" with no separation between the original column name and the suffix and assign them into the "featurevecmeans" vector
+25. Paste the "-Mean" suffix to each of the values in "mergedMeansColNames" with no separation between the original column name and the suffix and assign them into the "featurevecmeans" vector
 
 26. Create "mergedMeansTable" as a table of the transposed "mergedMeans" numeric vector
 
@@ -214,13 +214,13 @@ Description on how to create the tidy data file:
 
 28. Print out the "mergedMeanstable" which shows us the mean of all the measurements in the merged set
 
-29.Calculate and extract the standard deviation for all the columns in "fullSet" assigning them to "mergedSDS"
+29. Calculate and extract the standard deviation for all the columns in "fullSet" assigning them to "mergedSDS"
 
 30. Extract the column names from mergedSDS and assign them to "mergedSDSColNames"
 
 31. Create an empty vector called "featurevecsds"
 
-32.Paste the "-StdDev" suffix to each of the values in "mergedSDSColNames" with no separation between the original column name and the suffix and assign them into the "featurevecsds" vector
+32. Paste the "-StdDev" suffix to each of the values in "mergedSDSColNames" with no separation between the original column name and the suffix and assign them into the "featurevecsds" vector
 
 33. Create "mergedSDSTable" as a table of the transposed "mergedSDS" numeric vector
 
@@ -260,7 +260,7 @@ Description on how to create the tidy data file:
 
 51. Rename the measurment columns to reflect that they now hold averages for activity performed per subject
 
-52. use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
+52. Use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
