@@ -192,7 +192,7 @@ tidymeansColNames<-names(tidymeans[3:length(tidymeans)])
 ##The names are modified to reflect an accurate descritption of the calculated extracted data (the average for all measurements)
 featurevectidymeans<-vector()
 for (i in 1:length(tidymeansColNames))
-    featurevectidymeans[i]<-paste(tidymeansColNames[i],"-Average",sep="")
+    featurevectidymeans[i]<-paste(tidymeansColNames[i],"average",sep="")
 
 tidyactsubj<-tidymeans[1:2]
 tidyaverages<-tidymeans[3:ncol(tidymeans)]
@@ -200,6 +200,35 @@ colnames(tidyaverages)<-featurevectidymeans
 tidymeans<-cbind(tidyactsubj,tidyaverages)
 
 ##*********************************************
+
+###VARIABLE FORMAT TO ALL DESCRIPTIVE*********************
+
+names(tidymeans)<-sub("X","xaxis",names(tidymeans))
+names(tidymeans)<-sub("Y","yaxis",names(tidymeans))
+names(tidymeans)<-sub("Z","zaxis",names(tidymeans))
+names(tidymeans)<-tolower(names(tidymeans))
+names(tidymeans)<-sub(",gravitymean","gravitymean",names(tidymeans))
+names(tidymeans)<-gsub("-","",names(tidymeans))
+names(tidymeans)<-gsub("\\(","",names(tidymeans))
+names(tidymeans)<-gsub("\\)","",names(tidymeans))
+names(tidymeans)<-gsub(",","to",names(tidymeans))
+names(tidymeans)<-gsub("\\.","level",names(tidymeans))
+names(tidymeans)<-sub("fbody","frequencybody",names(tidymeans))
+names(tidymeans)<-sub("tbody", "timebody",names(tidymeans))
+names(tidymeans)<-sub("tgravity", "timegravity",names(tidymeans))
+names(tidymeans)<-sub("acc","acceleration",names(tidymeans))
+names(tidymeans)<-sub("std","standarddeviation",names(tidymeans))
+names(tidymeans)<-sub("mad","medianabsolutedeviation",names(tidymeans))
+names(tidymeans)<-sub("sma","signalmagnitudearea",names(tidymeans))
+names(tidymeans)<-sub("iqr","interquartilerange",names(tidymeans))
+names(tidymeans)<-sub("arcoeff","autoregressioncoefficient",names(tidymeans))
+names(tidymeans)<-sub("inds","index",names(tidymeans))
+names(tidymeans)<-sub("mag","magnitude",names(tidymeans))
+names(tidymeans)<-sub("meanfreq","meanfrequency",names(tidymeans))
+names(tidymeans)<-sub("max","maximum",names(tidymeans))
+names(tidymeans)<-sub("min","minimum",names(tidymeans))
+
+
 
 
 ##The tidymeans data table is written to a text file called "tidymeans.txt" 
