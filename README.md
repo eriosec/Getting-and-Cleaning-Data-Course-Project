@@ -314,7 +314,7 @@ u. Replacing the string "min" with the word "minimum"
 
 
 
-52 LLY: Use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
+52. Use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
 
 ##Description of the variables in the tiny_data.txt file
 General description of the file including:
