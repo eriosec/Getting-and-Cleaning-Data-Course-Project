@@ -311,6 +311,9 @@ t. Replacing the string "max" with the word "maximum"
 u. Replacing the string "min" with the word "minimum"
 
 
+
+
+
 52. Use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
 
 ##Description of the variables in the tiny_data.txt file
