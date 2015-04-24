@@ -302,14 +302,13 @@ p. Replacing the string "arcoeff" with the full concatenated string "autoregress
 
 q. Replacing the string "inds" with the word "index"
 
-r.  Replacing the string "mag" with the word "magnitude"
+r. Replacing the string "mag" with the word "magnitude"
 
-s.  Replacing the string "meanfreq" with the full concatenated string "meanfrequency"
+s. Replacing the string "meanfreq" with the full concatenated string "meanfrequency"
 
-t.  Replacing the string "max" with the word "maximum"
+t. Replacing the string "max" with the word "maximum"
 
-u.  Replacing the string "min" with the word "minimum"
-
+u. Replacing the string "min" with the word "minimum"
 
 
 52. Use write.table with the row.name=FALSE argument to create the "tidymeans.txt file as output to the script. 
