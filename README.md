@@ -421,538 +421,1604 @@ The tidy data contains as stated in the project requirements, requirement #5, "t
 
 
 "30" "timebodyaccelerationautoregressioncoefficientxaxisto3average"
+
+
 "31" "timebodyaccelerationautoregressioncoefficientxaxisto4average"
+
+
 "32" "timebodyaccelerationautoregressioncoefficientyaxisto1average"
+
+
 "33" "timebodyaccelerationautoregressioncoefficientyaxisto2average"
+
+
 "34" "timebodyaccelerationautoregressioncoefficientyaxisto3average"
+
+
 "35" "timebodyaccelerationautoregressioncoefficientyaxisto4average"
+
+
 "36" "timebodyaccelerationautoregressioncoefficientzaxisto1average"
+
+
 "37" "timebodyaccelerationautoregressioncoefficientzaxisto2average"
+
+
 "38" "timebodyaccelerationautoregressioncoefficientzaxisto3average"
+
+
 "39" "timebodyaccelerationautoregressioncoefficientzaxisto4average"
+
+
 "40" "timebodyaccelerationcorrelationxaxistoyaxisaverage"
+
+
 "41" "timebodyaccelerationcorrelationxaxistozaxisaverage"
+
+
 "42" "timebodyaccelerationcorrelationyaxistozaxisaverage"
+
+
 "43" "timegravityaccelerationmeanxaxisaverage"
+
+
 "44" "timegravityaccelerationmeanyaxisaverage"
+
+
 "45" "timegravityaccelerationmeanzaxisaverage"
+
+
 "46" "timegravityaccelerationstandarddeviationxaxisaverage"
+
+
 "47" "timegravityaccelerationstandarddeviationyaxisaverage"
+
+
 "48" "timegravityaccelerationstandarddeviationzaxisaverage"
+
+
 "49" "timegravityaccelerationmediagabsolutedeviationxaxisaverage"
+
+
 "50" "timegravityaccelerationmediagabsolutedeviationyaxisaverage"
+
+
 "51" "timegravityaccelerationmediagabsolutedeviationzaxisaverage"
+
+
 "52" "timegravityaccelerationmaximumxaxisaverage"
+
+
 "53" "timegravityaccelerationmaximumyaxisaverage"
+
+
 "54" "timegravityaccelerationmaximumzaxisaverage"
+
+
 "55" "timegravityaccelerationminimumxaxisaverage"
+
+
 "56" "timegravityaccelerationminimumyaxisaverage"
+
+
 "57" "timegravityaccelerationminimumzaxisaverage"
+
+
 "58" "timegravityaccelerationsignalmagnitudenitudeareaaverage"
+
+
 "59" "timegravityaccelerationenergyxaxisaverage"
+
+
 "60" "timegravityaccelerationenergyyaxisaverage"
+
+
 "61" "timegravityaccelerationenergyzaxisaverage"
+
+
 "62" "timegravityaccelerationinterquartilerangexaxisaverage"
+
+
 "63" "timegravityaccelerationinterquartilerangeyaxisaverage"
+
+
 "64" "timegravityaccelerationinterquartilerangezaxisaverage"
+
+
 "65" "timegravityaccelerationentropyxaxisaverage"
+
+
 "66" "timegravityaccelerationentropyyaxisaverage"
+
+
 "67" "timegravityaccelerationentropyzaxisaverage"
+
+
 "68" "timegravityaccelerationautoregressioncoefficientxaxisto1average"
+
+
 "69" "timegravityaccelerationautoregressioncoefficientxaxisto2average"
+
+
 "70" "timegravityaccelerationautoregressioncoefficientxaxisto3average"
+
+
 "71" "timegravityaccelerationautoregressioncoefficientxaxisto4average"
+
+
 "72" "timegravityaccelerationautoregressioncoefficientyaxisto1average"
+
+
 "73" "timegravityaccelerationautoregressioncoefficientyaxisto2average"
+
+
 "74" "timegravityaccelerationautoregressioncoefficientyaxisto3average"
+
+
 "75" "timegravityaccelerationautoregressioncoefficientyaxisto4average"
+
+
 "76" "timegravityaccelerationautoregressioncoefficientzaxisto1average"
+
+
 "77" "timegravityaccelerationautoregressioncoefficientzaxisto2average"
+
+
 "78" "timegravityaccelerationautoregressioncoefficientzaxisto3average"
+
+
 "79" "timegravityaccelerationautoregressioncoefficientzaxisto4average"
+
+
 "80" "timegravityaccelerationcorrelationxaxistoyaxisaverage"
+
+
 "81" "timegravityaccelerationcorrelationxaxistozaxisaverage"
+
+
 "82" "timegravityaccelerationcorrelationyaxistozaxisaverage"
+
+
 "83" "timebodyaccelerationjerkmeanxaxisaverage"
+
+
 "84" "timebodyaccelerationjerkmeanyaxisaverage"
+
+
 "85" "timebodyaccelerationjerkmeanzaxisaverage"
+
+
 "86" "timebodyaccelerationjerkstandarddeviationxaxisaverage"
+
+
 "87" "timebodyaccelerationjerkstandarddeviationyaxisaverage"
+
+
 "88" "timebodyaccelerationjerkstandarddeviationzaxisaverage"
+
+
 "89" "timebodyaccelerationjerkmediagabsolutedeviationxaxisaverage"
+
+
 "90" "timebodyaccelerationjerkmediagabsolutedeviationyaxisaverage"
+
+
 "91" "timebodyaccelerationjerkmediagabsolutedeviationzaxisaverage"
+
+
 "92" "timebodyaccelerationjerkmaximumxaxisaverage"
+
+
 "93" "timebodyaccelerationjerkmaximumyaxisaverage"
+
+
 "94" "timebodyaccelerationjerkmaximumzaxisaverage"
+
+
 "95" "timebodyaccelerationjerkminimumxaxisaverage"
+
+
 "96" "timebodyaccelerationjerkminimumyaxisaverage"
+
+
 "97" "timebodyaccelerationjerkminimumzaxisaverage"
+
+
 "98" "timebodyaccelerationjerksignalmagnitudenitudeareaaverage"
+
+
 "99" "timebodyaccelerationjerkenergyxaxisaverage"
+
+
 "100" "timebodyaccelerationjerkenergyyaxisaverage"
+
+
 "101" "timebodyaccelerationjerkenergyzaxisaverage"
+
+
 "102" "timebodyaccelerationjerkinterquartilerangexaxisaverage"
+
+
 "103" "timebodyaccelerationjerkinterquartilerangeyaxisaverage"
+
+
 "104" "timebodyaccelerationjerkinterquartilerangezaxisaverage"
+
+
 "105" "timebodyaccelerationjerkentropyxaxisaverage"
+
+
 "106" "timebodyaccelerationjerkentropyyaxisaverage"
+
+
 "107" "timebodyaccelerationjerkentropyzaxisaverage"
+
+
 "108" "timebodyaccelerationjerkautoregressioncoefficientxaxisto1average"
+
+
 "109" "timebodyaccelerationjerkautoregressioncoefficientxaxisto2average"
+
+
 "110" "timebodyaccelerationjerkautoregressioncoefficientxaxisto3average"
+
+
 "111" "timebodyaccelerationjerkautoregressioncoefficientxaxisto4average"
+
+
 "112" "timebodyaccelerationjerkautoregressioncoefficientyaxisto1average"
+
+
 "113" "timebodyaccelerationjerkautoregressioncoefficientyaxisto2average"
+
+
 "114" "timebodyaccelerationjerkautoregressioncoefficientyaxisto3average"
+
+
 "115" "timebodyaccelerationjerkautoregressioncoefficientyaxisto4average"
+
+
 "116" "timebodyaccelerationjerkautoregressioncoefficientzaxisto1average"
+
+
 "117" "timebodyaccelerationjerkautoregressioncoefficientzaxisto2average"
+
+
 "118" "timebodyaccelerationjerkautoregressioncoefficientzaxisto3average"
+
+
 "119" "timebodyaccelerationjerkautoregressioncoefficientzaxisto4average"
+
+
 "120" "timebodyaccelerationjerkcorrelationxaxistoyaxisaverage"
+
+
 "121" "timebodyaccelerationjerkcorrelationxaxistozaxisaverage"
+
+
 "122" "timebodyaccelerationjerkcorrelationyaxistozaxisaverage"
+
+
 "123" "timebodygyromeanxaxisaverage"
+
+
 "124" "timebodygyromeanyaxisaverage"
+
+
 "125" "timebodygyromeanzaxisaverage"
+
+
 "126" "timebodygyrostandarddeviationxaxisaverage"
+
+
 "127" "timebodygyrostandarddeviationyaxisaverage"
+
+
 "128" "timebodygyrostandarddeviationzaxisaverage"
+
+
 "129" "timebodygyromediagabsolutedeviationxaxisaverage"
+
+
 "130" "timebodygyromediagabsolutedeviationyaxisaverage"
+
+
 "131" "timebodygyromediagabsolutedeviationzaxisaverage"
+
+
 "132" "timebodygyromaximumxaxisaverage"
+
+
 "133" "timebodygyromaximumyaxisaverage"
+
+
 "134" "timebodygyromaximumzaxisaverage"
+
+
 "135" "timebodygyrominimumxaxisaverage"
+
+
 "136" "timebodygyrominimumyaxisaverage"
+
+
 "137" "timebodygyrominimumzaxisaverage"
+
+
 "138" "timebodygyrosignalmagnitudenitudeareaaverage"
+
+
 "139" "timebodygyroenergyxaxisaverage"
+
+
 "140" "timebodygyroenergyyaxisaverage"
+
+
 "141" "timebodygyroenergyzaxisaverage"
+
+
 "142" "timebodygyrointerquartilerangexaxisaverage"
+
+
 "143" "timebodygyrointerquartilerangeyaxisaverage"
+
+
 "144" "timebodygyrointerquartilerangezaxisaverage"
+
+
 "145" "timebodygyroentropyxaxisaverage"
+
+
 "146" "timebodygyroentropyyaxisaverage"
+
+
 "147" "timebodygyroentropyzaxisaverage"
+
+
 "148" "timebodygyroautoregressioncoefficientxaxisto1average"
+
+
 "149" "timebodygyroautoregressioncoefficientxaxisto2average"
+
+
 "150" "timebodygyroautoregressioncoefficientxaxisto3average"
+
+
 "151" "timebodygyroautoregressioncoefficientxaxisto4average"
+
+
 "152" "timebodygyroautoregressioncoefficientyaxisto1average"
+
+
 "153" "timebodygyroautoregressioncoefficientyaxisto2average"
+
+
 "154" "timebodygyroautoregressioncoefficientyaxisto3average"
+
+
 "155" "timebodygyroautoregressioncoefficientyaxisto4average"
+
+
 "156" "timebodygyroautoregressioncoefficientzaxisto1average"
+
+
 "157" "timebodygyroautoregressioncoefficientzaxisto2average"
+
+
 "158" "timebodygyroautoregressioncoefficientzaxisto3average"
+
+
 "159" "timebodygyroautoregressioncoefficientzaxisto4average"
+
+
 "160" "timebodygyrocorrelationxaxistoyaxisaverage"
+
+
 "161" "timebodygyrocorrelationxaxistozaxisaverage"
+
+
 "162" "timebodygyrocorrelationyaxistozaxisaverage"
+
+
 "163" "timebodygyrojerkmeanxaxisaverage"
+
+
 "164" "timebodygyrojerkmeanyaxisaverage"
+
+
 "165" "timebodygyrojerkmeanzaxisaverage"
+
+
 "166" "timebodygyrojerkstandarddeviationxaxisaverage"
+
+
 "167" "timebodygyrojerkstandarddeviationyaxisaverage"
+
+
 "168" "timebodygyrojerkstandarddeviationzaxisaverage"
+
+
 "169" "timebodygyrojerkmediagabsolutedeviationxaxisaverage"
+
+
 "170" "timebodygyrojerkmediagabsolutedeviationyaxisaverage"
+
+
 "171" "timebodygyrojerkmediagabsolutedeviationzaxisaverage"
+
+
 "172" "timebodygyrojerkmaximumxaxisaverage"
+
+
 "173" "timebodygyrojerkmaximumyaxisaverage"
+
+
 "174" "timebodygyrojerkmaximumzaxisaverage"
+
+
 "175" "timebodygyrojerkminimumxaxisaverage"
+
+
 "176" "timebodygyrojerkminimumyaxisaverage"
+
+
 "177" "timebodygyrojerkminimumzaxisaverage"
+
+
 "178" "timebodygyrojerksignalmagnitudenitudeareaaverage"
+
+
 "179" "timebodygyrojerkenergyxaxisaverage"
+
+
 "180" "timebodygyrojerkenergyyaxisaverage"
+
+
 "181" "timebodygyrojerkenergyzaxisaverage"
+
+
 "182" "timebodygyrojerkinterquartilerangexaxisaverage"
+
+
 "183" "timebodygyrojerkinterquartilerangeyaxisaverage"
+
+
 "184" "timebodygyrojerkinterquartilerangezaxisaverage"
+
+
 "185" "timebodygyrojerkentropyxaxisaverage"
+
+
 "186" "timebodygyrojerkentropyyaxisaverage"
+
+
 "187" "timebodygyrojerkentropyzaxisaverage"
+
+
 "188" "timebodygyrojerkautoregressioncoefficientxaxisto1average"
+
+
 "189" "timebodygyrojerkautoregressioncoefficientxaxisto2average"
+
+
 "190" "timebodygyrojerkautoregressioncoefficientxaxisto3average"
+
+
 "191" "timebodygyrojerkautoregressioncoefficientxaxisto4average"
+
+
 "192" "timebodygyrojerkautoregressioncoefficientyaxisto1average"
+
+
 "193" "timebodygyrojerkautoregressioncoefficientyaxisto2average"
+
+
 "194" "timebodygyrojerkautoregressioncoefficientyaxisto3average"
+
+
 "195" "timebodygyrojerkautoregressioncoefficientyaxisto4average"
+
+
 "196" "timebodygyrojerkautoregressioncoefficientzaxisto1average"
+
+
 "197" "timebodygyrojerkautoregressioncoefficientzaxisto2average"
+
+
 "198" "timebodygyrojerkautoregressioncoefficientzaxisto3average"
+
+
 "199" "timebodygyrojerkautoregressioncoefficientzaxisto4average"
+
+
 "200" "timebodygyrojerkcorrelationxaxistoyaxisaverage"
+
+
 "201" "timebodygyrojerkcorrelationxaxistozaxisaverage"
+
+
 "202" "timebodygyrojerkcorrelationyaxistozaxisaverage"
+
+
 "203" "timebodyaccelerationmagnitudemeanaverage"
+
+
 "204" "timebodyaccelerationmagnitudestandarddeviationaverage"
+
+
 "205" "timebodyaccelerationmagnitudemediagabsolutedeviationaverage"
+
+
 "206" "timebodyaccelerationmagnitudemaximumaverage"
+
+
 "207" "timebodyaccelerationmagnitudeminimumaverage"
+
+
 "208" "timebodyaccelerationmagnitudesignalmagnitudeareaaverage"
+
+
 "209" "timebodyaccelerationmagnitudeenergyaverage"
+
+
 "210" "timebodyaccelerationmagnitudeinterquartilerangeaverage"
+
+
 "211" "timebodyaccelerationmagnitudeentropyaverage"
+
+
 "212" "timebodyaccelerationmagnitudeautoregressioncoefficient1average"
+
+
 "213" "timebodyaccelerationmagnitudeautoregressioncoefficient2average"
+
+
 "214" "timebodyaccelerationmagnitudeautoregressioncoefficient3average"
+
+
 "215" "timebodyaccelerationmagnitudeautoregressioncoefficient4average"
+
+
 "216" "timegravityaccelerationmagnitudemeanaverage"
+
+
 "217" "timegravityaccelerationmagnitudestandarddeviationaverage"
+
+
 "218" "timegravityaccelerationmagnitudemediagabsolutedeviationaverage"
+
+
 "219" "timegravityaccelerationmagnitudemaximumaverage"
+
+
 "220" "timegravityaccelerationmagnitudeminimumaverage"
+
+
 "221" "timegravityaccelerationmagnitudesignalmagnitudeareaaverage"
+
+
 "222" "timegravityaccelerationmagnitudeenergyaverage"
+
+
 "223" "timegravityaccelerationmagnitudeinterquartilerangeaverage"
+
+
 "224" "timegravityaccelerationmagnitudeentropyaverage"
+
+
 "225" "timegravityaccelerationmagnitudeautoregressioncoefficient1average"
+
+
 "226" "timegravityaccelerationmagnitudeautoregressioncoefficient2average"
+
+
 "227" "timegravityaccelerationmagnitudeautoregressioncoefficient3average"
+
+
 "228" "timegravityaccelerationmagnitudeautoregressioncoefficient4average"
+
+
 "229" "timebodyaccelerationjerkmagnitudemeanaverage"
+
+
 "230" "timebodyaccelerationjerkmagnitudestandarddeviationaverage"
+
+
 "231" "timebodyaccelerationjerkmagnitudemediagabsolutedeviationaverage"
+
+
 "232" "timebodyaccelerationjerkmagnitudemaximumaverage"
+
+
 "233" "timebodyaccelerationjerkmagnitudeminimumaverage"
+
+
 "234" "timebodyaccelerationjerkmagnitudesignalmagnitudeareaaverage"
+
+
 "235" "timebodyaccelerationjerkmagnitudeenergyaverage"
+
+
 "236" "timebodyaccelerationjerkmagnitudeinterquartilerangeaverage"
+
+
 "237" "timebodyaccelerationjerkmagnitudeentropyaverage"
+
+
 "238" "timebodyaccelerationjerkmagnitudeautoregressioncoefficient1average"
+
+
 "239" "timebodyaccelerationjerkmagnitudeautoregressioncoefficient2average"
+
+
 "240" "timebodyaccelerationjerkmagnitudeautoregressioncoefficient3average"
+
+
 "241" "timebodyaccelerationjerkmagnitudeautoregressioncoefficient4average"
+
+
 "242" "timebodygyromagnitudemeanaverage"
+
+
 "243" "timebodygyromagnitudestandarddeviationaverage"
+
+
 "244" "timebodygyromagnitudemediagabsolutedeviationaverage"
+
+
 "245" "timebodygyromagnitudemaximumaverage"
+
+
 "246" "timebodygyromagnitudeminimumaverage"
+
+
 "247" "timebodygyromagnitudesignalmagnitudeareaaverage"
+
+
 "248" "timebodygyromagnitudeenergyaverage"
+
+
 "249" "timebodygyromagnitudeinterquartilerangeaverage"
+
+
 "250" "timebodygyromagnitudeentropyaverage"
+
+
 "251" "timebodygyromagnitudeautoregressioncoefficient1average"
+
+
 "252" "timebodygyromagnitudeautoregressioncoefficient2average"
+
+
 "253" "timebodygyromagnitudeautoregressioncoefficient3average"
+
+
 "254" "timebodygyromagnitudeautoregressioncoefficient4average"
+
+
 "255" "timebodygyrojerkmagnitudemeanaverage"
+
+
 "256" "timebodygyrojerkmagnitudestandarddeviationaverage"
+
+
 "257" "timebodygyrojerkmagnitudemediagabsolutedeviationaverage"
+
+
 "258" "timebodygyrojerkmagnitudemaximumaverage"
+
+
 "259" "timebodygyrojerkmagnitudeminimumaverage"
+
+
 "260" "timebodygyrojerkmagnitudesignalmagnitudeareaaverage"
+
+
 "261" "timebodygyrojerkmagnitudeenergyaverage"
+
+
 "262" "timebodygyrojerkmagnitudeinterquartilerangeaverage"
+
+
 "263" "timebodygyrojerkmagnitudeentropyaverage"
+
+
 "264" "timebodygyrojerkmagnitudeautoregressioncoefficient1average"
+
+
 "265" "timebodygyrojerkmagnitudeautoregressioncoefficient2average"
+
+
 "266" "timebodygyrojerkmagnitudeautoregressioncoefficient3average"
+
+
 "267" "timebodygyrojerkmagnitudeautoregressioncoefficient4average"
+
+
 "268" "frequencybodyaccelerationmeanxaxisaverage"
+
+
 "269" "frequencybodyaccelerationmeanyaxisaverage"
+
+
 "270" "frequencybodyaccelerationmeanzaxisaverage"
+
+
 "271" "frequencybodyaccelerationstandarddeviationxaxisaverage"
+
+
 "272" "frequencybodyaccelerationstandarddeviationyaxisaverage"
+
+
 "273" "frequencybodyaccelerationstandarddeviationzaxisaverage"
+
+
 "274" "frequencybodyaccelerationmediagabsolutedeviationxaxisaverage"
+
+
 "275" "frequencybodyaccelerationmediagabsolutedeviationyaxisaverage"
+
+
 "276" "frequencybodyaccelerationmediagabsolutedeviationzaxisaverage"
+
+
 "277" "frequencybodyaccelerationmaximumxaxisaverage"
+
+
 "278" "frequencybodyaccelerationmaximumyaxisaverage"
+
+
 "279" "frequencybodyaccelerationmaximumzaxisaverage"
+
+
 "280" "frequencybodyaccelerationminimumxaxisaverage"
+
+
 "281" "frequencybodyaccelerationminimumyaxisaverage"
+
+
 "282" "frequencybodyaccelerationminimumzaxisaverage"
+
+
 "283" "frequencybodyaccelerationsignalmagnitudenitudeareaaverage"
+
+
 "284" "frequencybodyaccelerationenergyxaxisaverage"
+
+
 "285" "frequencybodyaccelerationenergyyaxisaverage"
+
+
 "286" "frequencybodyaccelerationenergyzaxisaverage"
+
+
 "287" "frequencybodyaccelerationinterquartilerangexaxisaverage"
+
+
 "288" "frequencybodyaccelerationinterquartilerangeyaxisaverage"
+
+
 "289" "frequencybodyaccelerationinterquartilerangezaxisaverage"
+
+
 "290" "frequencybodyaccelerationentropyxaxisaverage"
+
+
 "291" "frequencybodyaccelerationentropyyaxisaverage"
+
+
 "292" "frequencybodyaccelerationentropyzaxisaverage"
+
+
 "293" "frequencybodyaccelerationmaximuminimumdexxaxisaverage"
+
+
 "294" "frequencybodyaccelerationmaximuminimumdexyaxisaverage"
+
+
 "295" "frequencybodyaccelerationmaximuminimumdexzaxisaverage"
+
+
 "296" "frequencybodyaccelerationmeanfrequencyxaxisaverage"
+
+
 "297" "frequencybodyaccelerationmeanfrequencyyaxisaverage"
+
+
 "298" "frequencybodyaccelerationmeanfrequencyzaxisaverage"
+
+
 "299" "frequencybodyaccelerationskewnessxaxisaverage"
+
+
 "300" "frequencybodyaccelerationkurtosisxaxisaverage"
+
+
 "301" "frequencybodyaccelerationskewnessyaxisaverage"
+
+
 "302" "frequencybodyaccelerationkurtosisyaxisaverage"
+
+
 "303" "frequencybodyaccelerationskewnesszaxisaverage"
+
+
 "304" "frequencybodyaccelerationkurtosiszaxisaverage"
+
+
 "305" "frequencybodyaccelerationbandsenergy1to8average"
+
+
 "306" "frequencybodyaccelerationbandsenergy9to16average"
+
+
 "307" "frequencybodyaccelerationbandsenergy17to24average"
+
+
 "308" "frequencybodyaccelerationbandsenergy25to32average"
+
+
 "309" "frequencybodyaccelerationbandsenergy33to40average"
+
+
 "310" "frequencybodyaccelerationbandsenergy41to48average"
+
+
 "311" "frequencybodyaccelerationbandsenergy49to56average"
+
+
 "312" "frequencybodyaccelerationbandsenergy57to64average"
+
+
 "313" "frequencybodyaccelerationbandsenergy1to16average"
+
+
 "314" "frequencybodyaccelerationbandsenergy17to32average"
+
+
 "315" "frequencybodyaccelerationbandsenergy33to48average"
+
+
 "316" "frequencybodyaccelerationbandsenergy49to64average"
+
+
 "317" "frequencybodyaccelerationbandsenergy1to24average"
+
+
 "318" "frequencybodyaccelerationbandsenergy25to48average"
+
+
 "319" "frequencybodyaccelerationbandsenergy1to8level1average"
+
+
 "320" "frequencybodyaccelerationbandsenergy9to16level1average"
+
+
 "321" "frequencybodyaccelerationbandsenergy17to24level1average"
+
+
 "322" "frequencybodyaccelerationbandsenergy25to32level1average"
+
+
 "323" "frequencybodyaccelerationbandsenergy33to40level1average"
+
+
 "324" "frequencybodyaccelerationbandsenergy41to48level1average"
+
+
 "325" "frequencybodyaccelerationbandsenergy49to56level1average"
+
+
 "326" "frequencybodyaccelerationbandsenergy57to64level1average"
+
+
 "327" "frequencybodyaccelerationbandsenergy1to16level1average"
+
+
 "328" "frequencybodyaccelerationbandsenergy17to32level1average"
+
+
 "329" "frequencybodyaccelerationbandsenergy33to48level1average"
+
+
 "330" "frequencybodyaccelerationbandsenergy49to64level1average"
+
+
 "331" "frequencybodyaccelerationbandsenergy1to24level1average"
+
+
 "332" "frequencybodyaccelerationbandsenergy25to48level1average"
+
+
 "333" "frequencybodyaccelerationbandsenergy1to8level2average"
+
+
 "334" "frequencybodyaccelerationbandsenergy9to16level2average"
+
+
 "335" "frequencybodyaccelerationbandsenergy17to24level2average"
+
+
 "336" "frequencybodyaccelerationbandsenergy25to32level2average"
+
+
 "337" "frequencybodyaccelerationbandsenergy33to40level2average"
+
+
 "338" "frequencybodyaccelerationbandsenergy41to48level2average"
+
+
 "339" "frequencybodyaccelerationbandsenergy49to56level2average"
+
+
 "340" "frequencybodyaccelerationbandsenergy57to64level2average"
+
+
 "341" "frequencybodyaccelerationbandsenergy1to16level2average"
+
+
 "342" "frequencybodyaccelerationbandsenergy17to32level2average"
+
+
 "343" "frequencybodyaccelerationbandsenergy33to48level2average"
+
+
 "344" "frequencybodyaccelerationbandsenergy49to64level2average"
+
+
 "345" "frequencybodyaccelerationbandsenergy1to24level2average"
+
+
 "346" "frequencybodyaccelerationbandsenergy25to48level2average"
+
+
 "347" "frequencybodyaccelerationjerkmeanxaxisaverage"
+
+
 "348" "frequencybodyaccelerationjerkmeanyaxisaverage"
+
+
 "349" "frequencybodyaccelerationjerkmeanzaxisaverage"
+
+
 "350" "frequencybodyaccelerationjerkstandarddeviationxaxisaverage"
+
+
 "351" "frequencybodyaccelerationjerkstandarddeviationyaxisaverage"
+
+
 "352" "frequencybodyaccelerationjerkstandarddeviationzaxisaverage"
+
+
 "353" "frequencybodyaccelerationjerkmediagabsolutedeviationxaxisaverage"
+
+
 "354" "frequencybodyaccelerationjerkmediagabsolutedeviationyaxisaverage"
+
+
 "355" "frequencybodyaccelerationjerkmediagabsolutedeviationzaxisaverage"
+
+
 "356" "frequencybodyaccelerationjerkmaximumxaxisaverage"
+
+
 "357" "frequencybodyaccelerationjerkmaximumyaxisaverage"
+
+
 "358" "frequencybodyaccelerationjerkmaximumzaxisaverage"
+
+
 "359" "frequencybodyaccelerationjerkminimumxaxisaverage"
+
+
 "360" "frequencybodyaccelerationjerkminimumyaxisaverage"
+
+
 "361" "frequencybodyaccelerationjerkminimumzaxisaverage"
+
+
 "362" "frequencybodyaccelerationjerksignalmagnitudenitudeareaaverage"
+
+
 "363" "frequencybodyaccelerationjerkenergyxaxisaverage"
+
+
 "364" "frequencybodyaccelerationjerkenergyyaxisaverage"
+
+
 "365" "frequencybodyaccelerationjerkenergyzaxisaverage"
+
+
 "366" "frequencybodyaccelerationjerkinterquartilerangexaxisaverage"
+
+
 "367" "frequencybodyaccelerationjerkinterquartilerangeyaxisaverage"
+
+
 "368" "frequencybodyaccelerationjerkinterquartilerangezaxisaverage"
+
+
 "369" "frequencybodyaccelerationjerkentropyxaxisaverage"
+
+
 "370" "frequencybodyaccelerationjerkentropyyaxisaverage"
+
+
 "371" "frequencybodyaccelerationjerkentropyzaxisaverage"
+
+
 "372" "frequencybodyaccelerationjerkmaximuminimumdexxaxisaverage"
+
+
 "373" "frequencybodyaccelerationjerkmaximuminimumdexyaxisaverage"
+
+
 "374" "frequencybodyaccelerationjerkmaximuminimumdexzaxisaverage"
+
+
 "375" "frequencybodyaccelerationjerkmeanfrequencyxaxisaverage"
+
+
 "376" "frequencybodyaccelerationjerkmeanfrequencyyaxisaverage"
+
+
 "377" "frequencybodyaccelerationjerkmeanfrequencyzaxisaverage"
+
+
 "378" "frequencybodyaccelerationjerkskewnessxaxisaverage"
+
+
 "379" "frequencybodyaccelerationjerkkurtosisxaxisaverage"
+
+
 "380" "frequencybodyaccelerationjerkskewnessyaxisaverage"
+
+
 "381" "frequencybodyaccelerationjerkkurtosisyaxisaverage"
+
+
 "382" "frequencybodyaccelerationjerkskewnesszaxisaverage"
+
+
 "383" "frequencybodyaccelerationjerkkurtosiszaxisaverage"
+
+
 "384" "frequencybodyaccelerationjerkbandsenergy1to8average"
+
+
 "385" "frequencybodyaccelerationjerkbandsenergy9to16average"
+
+
 "386" "frequencybodyaccelerationjerkbandsenergy17to24average"
+
+
 "387" "frequencybodyaccelerationjerkbandsenergy25to32average"
+
+
 "388" "frequencybodyaccelerationjerkbandsenergy33to40average"
+
+
 "389" "frequencybodyaccelerationjerkbandsenergy41to48average"
+
+
 "390" "frequencybodyaccelerationjerkbandsenergy49to56average"
+
+
 "391" "frequencybodyaccelerationjerkbandsenergy57to64average"
+
+
 "392" "frequencybodyaccelerationjerkbandsenergy1to16average"
+
+
 "393" "frequencybodyaccelerationjerkbandsenergy17to32average"
+
+
 "394" "frequencybodyaccelerationjerkbandsenergy33to48average"
+
+
 "395" "frequencybodyaccelerationjerkbandsenergy49to64average"
+
+
 "396" "frequencybodyaccelerationjerkbandsenergy1to24average"
+
+
 "397" "frequencybodyaccelerationjerkbandsenergy25to48average"
+
+
 "398" "frequencybodyaccelerationjerkbandsenergy1to8level1average"
+
+
 "399" "frequencybodyaccelerationjerkbandsenergy9to16level1average"
+
+
 "400" "frequencybodyaccelerationjerkbandsenergy17to24level1average"
+
+
 "401" "frequencybodyaccelerationjerkbandsenergy25to32level1average"
+
+
 "402" "frequencybodyaccelerationjerkbandsenergy33to40level1average"
+
+
 "403" "frequencybodyaccelerationjerkbandsenergy41to48level1average"
+
+
 "404" "frequencybodyaccelerationjerkbandsenergy49to56level1average"
+
+
 "405" "frequencybodyaccelerationjerkbandsenergy57to64level1average"
+
+
 "406" "frequencybodyaccelerationjerkbandsenergy1to16level1average"
+
+
 "407" "frequencybodyaccelerationjerkbandsenergy17to32level1average"
+
+
 "408" "frequencybodyaccelerationjerkbandsenergy33to48level1average"
+
+
 "409" "frequencybodyaccelerationjerkbandsenergy49to64level1average"
+
+
 "410" "frequencybodyaccelerationjerkbandsenergy1to24level1average"
+
+
 "411" "frequencybodyaccelerationjerkbandsenergy25to48level1average"
+
+
 "412" "frequencybodyaccelerationjerkbandsenergy1to8level2average"
+
+
 "413" "frequencybodyaccelerationjerkbandsenergy9to16level2average"
+
+
 "414" "frequencybodyaccelerationjerkbandsenergy17to24level2average"
+
+
 "415" "frequencybodyaccelerationjerkbandsenergy25to32level2average"
+
+
 "416" "frequencybodyaccelerationjerkbandsenergy33to40level2average"
+
+
 "417" "frequencybodyaccelerationjerkbandsenergy41to48level2average"
+
+
 "418" "frequencybodyaccelerationjerkbandsenergy49to56level2average"
+
+
 "419" "frequencybodyaccelerationjerkbandsenergy57to64level2average"
+
+
 "420" "frequencybodyaccelerationjerkbandsenergy1to16level2average"
+
+
 "421" "frequencybodyaccelerationjerkbandsenergy17to32level2average"
+
+
 "422" "frequencybodyaccelerationjerkbandsenergy33to48level2average"
+
+
 "423" "frequencybodyaccelerationjerkbandsenergy49to64level2average"
+
+
 "424" "frequencybodyaccelerationjerkbandsenergy1to24level2average"
+
+
 "425" "frequencybodyaccelerationjerkbandsenergy25to48level2average"
+
+
 "426" "frequencybodygyromeanxaxisaverage"
+
+
 "427" "frequencybodygyromeanyaxisaverage"
+
+
 "428" "frequencybodygyromeanzaxisaverage"
+
+
 "429" "frequencybodygyrostandarddeviationxaxisaverage"
+
+
 "430" "frequencybodygyrostandarddeviationyaxisaverage"
+
+
 "431" "frequencybodygyrostandarddeviationzaxisaverage"
+
+
 "432" "frequencybodygyromediagabsolutedeviationxaxisaverage"
+
+
 "433" "frequencybodygyromediagabsolutedeviationyaxisaverage"
+
+
 "434" "frequencybodygyromediagabsolutedeviationzaxisaverage"
+
+
 "435" "frequencybodygyromaximumxaxisaverage"
+
+
 "436" "frequencybodygyromaximumyaxisaverage"
+
+
 "437" "frequencybodygyromaximumzaxisaverage"
+
+
 "438" "frequencybodygyrominimumxaxisaverage"
+
+
 "439" "frequencybodygyrominimumyaxisaverage"
+
+
 "440" "frequencybodygyrominimumzaxisaverage"
+
+
 "441" "frequencybodygyrosignalmagnitudenitudeareaaverage"
+
+
 "442" "frequencybodygyroenergyxaxisaverage"
+
+
 "443" "frequencybodygyroenergyyaxisaverage"
+
+
 "444" "frequencybodygyroenergyzaxisaverage"
+
+
 "445" "frequencybodygyrointerquartilerangexaxisaverage"
+
+
 "446" "frequencybodygyrointerquartilerangeyaxisaverage"
+
+
 "447" "frequencybodygyrointerquartilerangezaxisaverage"
+
+
 "448" "frequencybodygyroentropyxaxisaverage"
+
+
 "449" "frequencybodygyroentropyyaxisaverage"
+
+
 "450" "frequencybodygyroentropyzaxisaverage"
+
+
 "451" "frequencybodygyromaximuminimumdexxaxisaverage"
+
+
 "452" "frequencybodygyromaximuminimumdexyaxisaverage"
+
+
 "453" "frequencybodygyromaximuminimumdexzaxisaverage"
+
+
 "454" "frequencybodygyromeanfrequencyxaxisaverage"
+
+
 "455" "frequencybodygyromeanfrequencyyaxisaverage"
+
+
 "456" "frequencybodygyromeanfrequencyzaxisaverage"
+
+
 "457" "frequencybodygyroskewnessxaxisaverage"
+
+
 "458" "frequencybodygyrokurtosisxaxisaverage"
+
+
 "459" "frequencybodygyroskewnessyaxisaverage"
+
+
 "460" "frequencybodygyrokurtosisyaxisaverage"
+
+
 "461" "frequencybodygyroskewnesszaxisaverage"
+
+
 "462" "frequencybodygyrokurtosiszaxisaverage"
+
+
 "463" "frequencybodygyrobandsenergy1to8average"
+
+
 "464" "frequencybodygyrobandsenergy9to16average"
+
+
 "465" "frequencybodygyrobandsenergy17to24average"
+
+
 "466" "frequencybodygyrobandsenergy25to32average"
+
+
 "467" "frequencybodygyrobandsenergy33to40average"
+
+
 "468" "frequencybodygyrobandsenergy41to48average"
+
+
 "469" "frequencybodygyrobandsenergy49to56average"
+
+
 "470" "frequencybodygyrobandsenergy57to64average"
+
+
 "471" "frequencybodygyrobandsenergy1to16average"
+
+
 "472" "frequencybodygyrobandsenergy17to32average"
+
+
 "473" "frequencybodygyrobandsenergy33to48average"
+
+
 "474" "frequencybodygyrobandsenergy49to64average"
+
+
 "475" "frequencybodygyrobandsenergy1to24average"
+
+
 "476" "frequencybodygyrobandsenergy25to48average"
+
+
 "477" "frequencybodygyrobandsenergy1to8level1average"
+
+
 "478" "frequencybodygyrobandsenergy9to16level1average"
+
+
 "479" "frequencybodygyrobandsenergy17to24level1average"
+
+
 "480" "frequencybodygyrobandsenergy25to32level1average"
+
+
 "481" "frequencybodygyrobandsenergy33to40level1average"
+
+
 "482" "frequencybodygyrobandsenergy41to48level1average"
+
+
 "483" "frequencybodygyrobandsenergy49to56level1average"
+
+
 "484" "frequencybodygyrobandsenergy57to64level1average"
+
+
 "485" "frequencybodygyrobandsenergy1to16level1average"
+
+
 "486" "frequencybodygyrobandsenergy17to32level1average"
+
+
 "487" "frequencybodygyrobandsenergy33to48level1average"
+
+
 "488" "frequencybodygyrobandsenergy49to64level1average"
+
+
 "489" "frequencybodygyrobandsenergy1to24level1average"
+
+
 "490" "frequencybodygyrobandsenergy25to48level1average"
+
+
 "491" "frequencybodygyrobandsenergy1to8level2average"
+
+
 "492" "frequencybodygyrobandsenergy9to16level2average"
+
+
 "493" "frequencybodygyrobandsenergy17to24level2average"
+
+
 "494" "frequencybodygyrobandsenergy25to32level2average"
+
+
 "495" "frequencybodygyrobandsenergy33to40level2average"
+
+
 "496" "frequencybodygyrobandsenergy41to48level2average"
+
+
 "497" "frequencybodygyrobandsenergy49to56level2average"
+
+
 "498" "frequencybodygyrobandsenergy57to64level2average"
+
+
 "499" "frequencybodygyrobandsenergy1to16level2average"
+
+
 "500" "frequencybodygyrobandsenergy17to32level2average"
+
+
 "501" "frequencybodygyrobandsenergy33to48level2average"
+
+
 "502" "frequencybodygyrobandsenergy49to64level2average"
+
+
 "503" "frequencybodygyrobandsenergy1to24level2average"
+
+
 "504" "frequencybodygyrobandsenergy25to48level2average"
+
+
 "505" "frequencybodyaccelerationmagnitudemeanaverage"
+
+
 "506" "frequencybodyaccelerationmagnitudestandarddeviationaverage"
+
+
 "507" "frequencybodyaccelerationmagnitudemediagabsolutedeviationaverage"
+
+
 "508" "frequencybodyaccelerationmagnitudemaximumaverage"
+
+
 "509" "frequencybodyaccelerationmagnitudeminimumaverage"
+
+
 "510" "frequencybodyaccelerationmagnitudesignalmagnitudeareaaverage"
+
+
 "511" "frequencybodyaccelerationmagnitudeenergyaverage"
+
+
 "512" "frequencybodyaccelerationmagnitudeinterquartilerangeaverage"
+
+
 "513" "frequencybodyaccelerationmagnitudeentropyaverage"
+
+
 "514" "frequencybodyaccelerationmagnitudemaximuminimumdexaverage"
+
+
 "515" "frequencybodyaccelerationmagnitudemeanfrequencyaverage"
+
+
 "516" "frequencybodyaccelerationmagnitudeskewnessaverage"
+
+
 "517" "frequencybodyaccelerationmagnitudekurtosisaverage"
+
+
 "518" "frequencybodybodyaccelerationjerkmagnitudemeanaverage"
+
+
 "519" "frequencybodybodyaccelerationjerkmagnitudestandarddeviationaverage"
+
+
 "520" "frequencybodybodyaccelerationjerkmagnitudemediagabsolutedeviationaverage"
+
+
 "521" "frequencybodybodyaccelerationjerkmagnitudemaximumaverage"
+
+
 "522" "frequencybodybodyaccelerationjerkmagnitudeminimumaverage"
+
+
 "523" "frequencybodybodyaccelerationjerkmagnitudesignalmagnitudeareaaverage"
+
+
 "524" "frequencybodybodyaccelerationjerkmagnitudeenergyaverage"
+
+
 "525" "frequencybodybodyaccelerationjerkmagnitudeinterquartilerangeaverage"
+
+
 "526" "frequencybodybodyaccelerationjerkmagnitudeentropyaverage"
+
+
 "527" "frequencybodybodyaccelerationjerkmagnitudemaximuminimumdexaverage"
+
+
 "528" "frequencybodybodyaccelerationjerkmagnitudemeanfrequencyaverage"
+
+
 "529" "frequencybodybodyaccelerationjerkmagnitudeskewnessaverage"
+
+
 "530" "frequencybodybodyaccelerationjerkmagnitudekurtosisaverage"
+
+
 "531" "frequencybodybodygyromagnitudemeanaverage"
+
+
 "532" "frequencybodybodygyromagnitudestandarddeviationaverage"
+
+
 "533" "frequencybodybodygyromagnitudemediagabsolutedeviationaverage"
+
+
 "534" "frequencybodybodygyromagnitudemaximumaverage"
+
+
 "535" "frequencybodybodygyromagnitudeminimumaverage"
+
+
 "536" "frequencybodybodygyromagnitudesignalmagnitudeareaaverage"
+
+
 "537" "frequencybodybodygyromagnitudeenergyaverage"
+
+
 "538" "frequencybodybodygyromagnitudeinterquartilerangeaverage"
+
+
 "539" "frequencybodybodygyromagnitudeentropyaverage"
+
+
 "540" "frequencybodybodygyromagnitudemaximuminimumdexaverage"
+
+
 "541" "frequencybodybodygyromagnitudemeanfrequencyaverage"
+
+
 "542" "frequencybodybodygyromagnitudeskewnessaverage"
+
+
 "543" "frequencybodybodygyromagnitudekurtosisaverage"
+
+
 "544" "frequencybodybodygyrojerkmagnitudemeanaverage"
+
+
 "545" "frequencybodybodygyrojerkmagnitudestandarddeviationaverage"
+
+
 "546" "frequencybodybodygyrojerkmagnitudemediagabsolutedeviationaverage"
+
+
 "547" "frequencybodybodygyrojerkmagnitudemaximumaverage"
+
+
 "548" "frequencybodybodygyrojerkmagnitudeminimumaverage"
+
+
 "549" "frequencybodybodygyrojerkmagnitudesignalmagnitudeareaaverage"
+
+
 "550" "frequencybodybodygyrojerkmagnitudeenergyaverage"
+
+
 "551" "frequencybodybodygyrojerkmagnitudeinterquartilerangeaverage"
+
+
 "552" "frequencybodybodygyrojerkmagnitudeentropyaverage"
+
+
 "553" "frequencybodybodygyrojerkmagnitudemaximuminimumdexaverage"
+
+
 "554" "frequencybodybodygyrojerkmagnitudemeanfrequencyaverage"
+
+
 "555" "frequencybodybodygyrojerkmagnitudeskewnessaverage"
+
+
 "556" "frequencybodybodygyrojerkmagnitudekurtosisaverage"
+
+
 "557" "angletimebodyaccelerationmeantogravityaverage"
+
+
 "558" "angletimebodyaccelerationjerkmeangravitymeanaverage"
+
+
 "559" "angletimebodygyromeangravitymeanaverage"
+
+
 "560" "angletimebodygyrojerkmeangravitymeanaverage"
+
+
 "561" "anglexaxisgravitymeanaverage"
+
+
 "562" "angleyaxisgravitymeanaverage"
+
+
 "563" "anglezaxisgravitymeanaverage"
 
 
