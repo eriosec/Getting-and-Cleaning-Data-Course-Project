@@ -38,13 +38,17 @@ colnames(XTrain)<-featurevec
 #measured train data
 XTrainnamed<-cbind(subjectTrain,XTrain) ## TRAINED DATA WITH SUBJECT COLUMN AND ALL MEASURED FEATURES COLUMNS
 
-##XTrained and xTestnamed are row bound to create a tabled called "fullSet"********************************
-fullSet<-rbind(XTrainnamed,XTestnamed)#THIS IS THE MERGED SET OF TRAINING AND TEST DATA SETS
+
+##*************1. THIS IS THE MERGED SET OF TRAINING AND TEST DATA SETS***********************************
+
+##XTrained and xTestnamed are row bound to create a tabled called "fullSet"
+fullSet<-rbind(XTrainnamed,XTestnamed)
+
 
 ##THE merged set is then ordered by subject
 ordFullSet<-fullSet[order(fullSet$subject),]
 
-##************************THESE ARE THE MEANS AND STANDARD DEVIATIONS************************************
+##************************2. THIS BLOCK CALCULATES AND PRINTS THE MEANS AND STANDARD DEVIATIONS************************************
 ##The mean is then calculated for each of the measurements (features) of the ordered merged data set
 mergedMeans<-apply(ordFullSet,2,mean)
 
@@ -79,8 +83,7 @@ colnames(mergedSDSTable)<-featurevecsds
 
 mergedSDSTable
 
-####################################################
-##*************************THIS ENSURES THE USE OF DESCRIPTIVE ACTIVITY NAMES****************************
+##*************************3. THIS BLOCK ENSURES THE USE OF DESCRIPTIVE ACTIVITY NAMES****************************
 
 ##The activities that were performed by each subject in the test group are read into a table called
 ## yTestActivities
@@ -162,9 +165,7 @@ measurementMeans<-lapply(subjbyact,
                           function(x) lapply(x,
                                              function(x) apply(x[2:563],2,mean)))
 
-##*****************THE "measurementMeans" tables have the descriptive variable names for the data set*********
-####################################################################
-
+##******************THIS BLOCK TIDIES UP THE DATA************************* 
 ##The "measurementMeans" list is then unlisted to create the tidy data set where the average of all the 
 ##measurements for each subject and its activities are saved according to the tidy data principles:
 ##Each variable being measured is in one column
@@ -185,7 +186,6 @@ tidymeans<-cbind(activitycol,tidymeanstemp)
 names(tidymeans)[1]<-c("activity")
 
 
-##*******************************************
 ##The names of the columns is extracted to reflect the appropriate calculated measurements
 tidymeansColNames<-names(tidymeans[3:length(tidymeans)])
 
@@ -199,9 +199,8 @@ tidyaverages<-tidymeans[3:ncol(tidymeans)]
 colnames(tidyaverages)<-featurevectidymeans
 tidymeans<-cbind(tidyactsubj,tidyaverages)
 
-##*********************************************
 
-###VARIABLE FORMAT TO ALL DESCRIPTIVE*********************
+#******** 4. THIS BLOCK CHANGES ALL VARIABLE NAMES TO A FULLY DESCRIPTIVE FORMAT*********************
 
 names(tidymeans)<-sub("X","xaxis",names(tidymeans))
 names(tidymeans)<-sub("Y","yaxis",names(tidymeans))
@@ -231,6 +230,6 @@ names(tidymeans)<-sub("min","minimum",names(tidymeans))
 
 
 
+##*************5. TIDY DATA FILE IS CREATED WITH WRITE.TABLE *************************************
 ##The tidymeans data table is written to a text file called "tidymeans.txt" 
-
-write.table(tidymeans, file="tidymeans.txt", row.name=FALSE)
+write.table(tidymeans, file="tidymeansfile.txt", row.name=FALSE)
