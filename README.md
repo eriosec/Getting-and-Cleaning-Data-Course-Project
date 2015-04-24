@@ -340,32 +340,86 @@ The tidy data contains as stated in the project requirements, requirement #5, "t
 
 
 "3" "timebodyaccelerationmeanxaxisaverage"
+
+
 "4" "timebodyaccelerationmeanyaxisaverage"
+
+
 "5" "timebodyaccelerationmeanzaxisaverage"
+
+
 "6" "timebodyaccelerationstandarddeviationxaxisaverage"
+
+
 "7" "timebodyaccelerationstandarddeviationyaxisaverage"
+
+
 "8" "timebodyaccelerationstandarddeviationzaxisaverage"
+
+
 "9" "timebodyaccelerationmediagabsolutedeviationxaxisaverage"
+
+
 "10" "timebodyaccelerationmediagabsolutedeviationyaxisaverage"
+
+
 "11" "timebodyaccelerationmediagabsolutedeviationzaxisaverage"
+
+
 "12" "timebodyaccelerationmaximumxaxisaverage"
+
+
 "13" "timebodyaccelerationmaximumyaxisaverage"
+
+
 "14" "timebodyaccelerationmaximumzaxisaverage"
+
+
 "15" "timebodyaccelerationminimumxaxisaverage"
+
+
 "16" "timebodyaccelerationminimumyaxisaverage"
+
+
 "17" "timebodyaccelerationminimumzaxisaverage"
+
+
 "18" "timebodyaccelerationsignalmagnitudenitudeareaaverage"
+
+
 "19" "timebodyaccelerationenergyxaxisaverage"
+
+
 "20" "timebodyaccelerationenergyyaxisaverage"
+
+
 "21" "timebodyaccelerationenergyzaxisaverage"
+
+
 "22" "timebodyaccelerationinterquartilerangexaxisaverage"
+
+
 "23" "timebodyaccelerationinterquartilerangeyaxisaverage"
+
+
 "24" "timebodyaccelerationinterquartilerangezaxisaverage"
+
+
 "25" "timebodyaccelerationentropyxaxisaverage"
+
+
 "26" "timebodyaccelerationentropyyaxisaverage"
+
+
 "27" "timebodyaccelerationentropyzaxisaverage"
+
+
 "28" "timebodyaccelerationautoregressioncoefficientxaxisto1average"
+
+
 "29" "timebodyaccelerationautoregressioncoefficientxaxisto2average"
+
+
 "30" "timebodyaccelerationautoregressioncoefficientxaxisto3average"
 "31" "timebodyaccelerationautoregressioncoefficientxaxisto4average"
 "32" "timebodyaccelerationautoregressioncoefficientyaxisto1average"
